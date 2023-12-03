@@ -1,0 +1,58 @@
+#flag{
+    padding-left: 20%;
+}
+
+  #google_translate_element a {
+    display: none;
+  }
+
+  .goog-te-gadget {
+    color: transparent !important;
+ }
+ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.team-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.team-member {
+    display: inline-block;
+    margin: 0 20px;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.member-info p {
+    color: #666;
+}
